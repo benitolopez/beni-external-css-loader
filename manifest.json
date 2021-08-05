@@ -1,0 +1,12 @@
+{
+  "name": "Beni External CSS Loader",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Load custom external CSS",
+  "content_scripts": [
+    {
+      "matches": ["*://*/*", "file://*/*"],
+      "js": ["src/main.js"]
+    }
+  ]
+}

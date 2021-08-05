@@ -1,0 +1,13 @@
+html.beni-external-css-loader.bck-adblock,
+html.beni-external-css-loader .bck-adblock {
+  display: none !important;
+}
+
+html.beni-external-css-loader.has--adblock,
+html.beni-external-css-loader .has--adblock {
+  overflow: auto !important;
+}
+
+html.beni-external-css-loader.has--adblock #l-main, html.beni-external-css-loader.has--adblock #l-footer {
+  filter: none !important;
+}

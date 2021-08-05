@@ -6,8 +6,12 @@ html.beni-external-css-loader .bck-adblock {
 html.beni-external-css-loader.has--adblock,
 html.beni-external-css-loader .has--adblock {
   overflow: auto !important;
+  user-select: auto !important;
 }
 
-html.beni-external-css-loader.has--adblock #l-main, html.beni-external-css-loader.has--adblock #l-footer {
+html.beni-external-css-loader.has--adblock #l-main, 
+html.beni-external-css-loader.has--adblock #l-footer,
+html.beni-external-css-loader.has--adblock section.container, 
+html.beni-external-css-loader.has--adblock #main_footer {
   filter: none !important;
 }

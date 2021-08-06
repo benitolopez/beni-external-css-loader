@@ -11,7 +11,6 @@ function appendStyleNode(id, href) {
 	var xhttp = new XMLHttpRequest();
 	xhttp.open("GET", href, true);
 	xhttp.onreadystatechange = function() {
-		console.log(xhttp);
 		if (xhttp.readyState === 4) {
 			if (xhttp.status === 200) {
 				var cssNode = document.createElement('style');
